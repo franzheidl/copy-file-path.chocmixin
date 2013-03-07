@@ -1,0 +1,17 @@
+{
+  "name": "copy-file-path",
+  "version": "1.0.0",
+  "description": "Copy the path of the currently open file to clipboard",
+  "main": "init.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/franzheidl/copy-file-path.chocmixin.git"
+  },
+  "keywords": [
+    "copy",
+    "path",
+    "clipboard"
+  ],
+  "author": "Franz Heidl",
+  "license": "MIT"
+}
