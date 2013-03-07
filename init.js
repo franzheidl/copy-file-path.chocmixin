@@ -7,6 +7,5 @@ Hooks.addMenuItem("Edit/Copy File Path", "ctrl-cmd-p", function() {
         Alert.show("Oops!", "There is no path to copy yet. Save your document first.", ["OK, promised."]);
         return;
     }
-    var currentFilePath = (Document.current()).path();
-    Clipboard.copy(currentFilePath);
+    Clipboard.copy((Document.current()).path());
 });
